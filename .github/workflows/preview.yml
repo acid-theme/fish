@@ -1,0 +1,20 @@
+name: Preview
+
+# Generated. The steps live in the hub so every port shares them; this file only
+# says when to run them.
+
+on:
+  push:
+    paths:
+      - "conf.d/acid-acetic.fish"
+      - "conf.d/acid-citric.fish"
+      - "themes/Acid Acetic.theme"
+      - "themes/Acid Citric.theme"
+      - "preview/**"
+  workflow_dispatch:
+
+jobs:
+  preview:
+    uses: acid-theme/acid/.github/workflows/port-preview.yml@master
+    permissions:
+      contents: write
