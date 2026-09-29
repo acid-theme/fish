@@ -12,7 +12,6 @@ on:
       - "themes/Acid Acetic.theme"
       - "themes/Acid Citric.theme"
       - "themes/Acid Lactic.theme"
-      - "preview/**"
   workflow_dispatch:
 
 jobs:

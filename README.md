@@ -1,15 +1,16 @@
 # Acid for fish
 
-Three flavours: **Acetic** (`#000000`), pure black with vibrant accents; **Citric** (`#1c1b19`), warm dark grey with muted accents; and **Lactic** (`#ffffff`), white with accents darkened to match.
+Generated from [acid-theme/acid](https://github.com/acid-theme/acid) — open issues
+and pull requests there.
 
-Part of [Acid](https://github.com/acid-theme/acid), a very dark colourscheme in two
-flavours. The main README lists the other ports.
+<details>
+<summary>Screenshots</summary>
 
-## Preview
+| Acetic | Citric | Lactic |
+| --- | --- | --- |
+| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) | ![Acid Lactic](previews/lactic.png) |
 
-| Acetic | Citric |
-| --- | --- |
-| ![Acid Acetic](previews/acetic.png) | ![Acid Citric](previews/citric.png) |
+</details>
 
 ## Install
 
@@ -31,22 +32,6 @@ curl -fsSLo ~/.config/fish/conf.d/acid-acetic.fish \
 
 Use one or the other, not both.
 
-## Files
+## Credits
 
-- `themes/Acid Acetic.theme`
-- `themes/Acid Citric.theme`
-- `themes/Acid Lactic.theme`
-- `conf.d/acid-acetic.fish`
-- `conf.d/acid-citric.fish`
-- `conf.d/acid-lactic.fish`
-
-## Generated
-
-Acid 0.1.0, rendered by acidify from
-[`ports/fish/acid.fish.tera`](https://github.com/acid-theme/acid/blob/main/ports/fish/acid.fish.tera).
-Edits to these files are overwritten on the next release. Report issues on
-[acid-theme/acid](https://github.com/acid-theme/acid/issues).
-
-## Licence
-
-MIT.
+[@ssiyad](https://github.com/ssiyad)
