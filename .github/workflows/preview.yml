@@ -8,8 +8,10 @@ on:
     paths:
       - "conf.d/acid-acetic.fish"
       - "conf.d/acid-citric.fish"
+      - "conf.d/acid-lactic.fish"
       - "themes/Acid Acetic.theme"
       - "themes/Acid Citric.theme"
+      - "themes/Acid Lactic.theme"
       - "preview/**"
   workflow_dispatch:
 
